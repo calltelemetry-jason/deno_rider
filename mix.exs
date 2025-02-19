@@ -58,7 +58,7 @@ defmodule DenoRider.MixProject do
       {:ex_doc, "~> 0.34", only: :dev, runtime: false},
       {:jason, "~> 1.4"},
       {:rustler, "~> 0.35", optional: true},
-      {:rustler_precompiled, "~> 0.7"}
+      {:rustler_precompiled, "~> 0.6"}
     ]
   end
 
